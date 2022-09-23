@@ -1,0 +1,11 @@
+Section 7
+___________
+* The content is the one that guides the design of the project and not the opposite.
+* don't come with a cool design and then find content to fill it.
+* 1. write the content.
+
+* in the css file, it is recommended that we put a system of the used fonts, sizes and 
+  line heights to reference them in future uses.
+  
+  To keep the style consistent.
+* The responsive element of the website is planned from the start.
