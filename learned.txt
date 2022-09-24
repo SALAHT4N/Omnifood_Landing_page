@@ -9,3 +9,29 @@ ___________
   
   To keep the style consistent.
 * The responsive element of the website is planned from the start.
+
+* When a page is loaded, all relative units are converted to pixels.
+* rem: root elementfont size, which is the default font-size that is specified by the root element (html element).
+
+* to specify the user-defined rem value, we simply change the font size in the html element.
+* we should use a percentage for that. eg. 16px -> 10px ---> 10 / 16 = 62.5%.
+* max-width instead of width, to make the element shrink if the browser becomes smaller.
+
+* if we set the hero section width to 100%, then it will grow as the window grows, but if width were set
+  as pixels, then the element will shrink if the window shrinks.
+  but a max-width is the best of both worlds.
+
+* anchors are inline element, so top and bottom margins and padding do not work.
+* border radius should be made by pixels.
+
+* sometimes when we add border to an element, it plays with the layout, that's because
+  the border is on the outside.
+
+  to make the border inside, we will use the box-shadow trick and set it to inset.
+* add the shared styles in the shared class.
+
+* the transition is put in the steady state rule.
+  it can have values that describes what properties will change, and the time.
+
+* helper class, a class we put to multiple elements that share the same property.
+  we should annotate it with the !important.
