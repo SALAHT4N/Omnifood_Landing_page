@@ -38,3 +38,10 @@ ___________
 
 * to make the pictures overlap, we don't simply use a negative gap value for the 
   flex container, we use a margin of negative value.
+
+* main element is used for sctions that are only used once in a website,
+  so a navigation bar doesn't make sense if it is in a main.
+
+* when making sticky elements, it is better to give it a fixed height.
+* to add a nav bar, we simply add a component wherever we like, just add it 
+  as a seperate section, not included in other.

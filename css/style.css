@@ -46,19 +46,10 @@ body {
   font-family: "Inter", sans-serif;
   color: #555;
 }
-.section-hero {
-  background-color: #fdf2e9;
-  padding: 9.6rem 0;
-}
-.hero {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  max-width: 130rem;
-  margin: 0 auto;
-  align-items: center;
-  gap: 9.6rem;
-}
 
+/************************/
+/*SHARED REUSABLE RULES*/
+/************************/
 .heading-primary {
   font-size: 5.2rem;
   line-height: 1.05;
@@ -66,14 +57,6 @@ body {
   color: #333;
   margin-bottom: 3.2rem;
   font-weight: 700;
-}
-.hero-text {
-  font-size: 2rem;
-  line-height: 1.6;
-  margin-bottom: 4.8rem;
-}
-.hero-img {
-  width: 100%;
 }
 
 .btn:link,
@@ -113,11 +96,54 @@ body {
 }
 
 .margin-right-sm {
-  margin-right: 1.6rem;
+  margin-right: 2.4rem;
 }
 
 ::selection {
   background-color: #f0b27a;
+}
+
+/************************/
+/*NAVIGATION*/
+/************************/
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 4.8rem;
+  height: 9.6rem;
+  background-color: #fdf2e9;
+}
+
+.logo {
+  height: 2.4rem;
+}
+
+/************************/
+/*HERO SECTION*/
+/************************/
+
+.section-hero {
+  background-color: #fdf2e9;
+  padding: 4.8rem 0 9.6rem 0;
+}
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  align-items: center;
+  gap: 9.6rem;
+}
+
+.hero-text {
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-bottom: 4.8rem;
+}
+.hero-img {
+  width: 100%;
 }
 
 .delivered-meals {
