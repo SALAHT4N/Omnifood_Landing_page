@@ -43,7 +43,7 @@ html {
 body {
   font-weight: 400;
   line-height: 1;
-  font-family: sans-serif;
+  font-family: "Inter", sans-serif;
   color: #555;
 }
 .section-hero {
@@ -62,7 +62,7 @@ body {
 .heading-primary {
   font-size: 5.2rem;
   line-height: 1.05;
-  letter-spacing: -0.5px;
+  letter-spacing: -0.7px;
   color: #333;
   margin-bottom: 3.2rem;
   font-weight: 700;
@@ -86,6 +86,7 @@ body {
   display: inline-block;
 
   transition: background-color 0.2s;
+  font-weight: 600;
 }
 
 .btn--full:link,
@@ -117,4 +118,34 @@ body {
 
 ::selection {
   background-color: #f0b27a;
+}
+
+.delivered-meals {
+  display: flex;
+  margin-top: 8rem;
+  gap: 1.6rem;
+  align-items: center;
+}
+.customer-imgs {
+  display: flex;
+  gap: 0.2rem;
+}
+
+.customer-imgs img {
+  width: 4.8rem;
+  height: 4.8rem;
+  border-radius: 50%;
+  margin-right: -1.6rem;
+  border: #fdf2e9 solid 3px;
+}
+.customer-imgs img:last-child {
+  margin: 0;
+}
+
+.delivered-text {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+.delivered-text span {
+  color: #b8651b;
 }

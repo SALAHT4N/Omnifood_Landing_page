@@ -35,3 +35,6 @@ ___________
 
 * helper class, a class we put to multiple elements that share the same property.
   we should annotate it with the !important.
+
+* to make the pictures overlap, we don't simply use a negative gap value for the 
+  flex container, we use a margin of negative value.
