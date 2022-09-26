@@ -45,3 +45,12 @@ ___________
 * when making sticky elements, it is better to give it a fixed height.
 * to add a nav bar, we simply add a component wherever we like, just add it 
   as a seperate section, not included in other.
+
+* a nav bar is done this way, ul inside the nav, this unordered list contains 
+  li that contains a.
+* if the color is a text, then we check the contrast checker.
+* a good practice is to keep track of the values you used in css, so that 
+  the consistency of the website is fulfiled.
+
+* a convention is used for wep pages width is 1200 or 1140px.
+* hero sections are usually wider than the rest of the sections.
