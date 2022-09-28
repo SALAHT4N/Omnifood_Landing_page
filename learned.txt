@@ -54,3 +54,7 @@ ___________
 
 * a convention is used for wep pages width is 1200 or 1140px.
 * hero sections are usually wider than the rest of the sections.
+
+* a reusable rule: the idea is to extract a duplicated styles from different 
+  rules into a single rule that can be applied to an element if the specific 
+  styles are wanted on that element.
