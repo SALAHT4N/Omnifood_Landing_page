@@ -35,7 +35,7 @@
 
 .main-nav-link:hover,
 .main-nav-link:active {
-  color: #b8651b;
+  color: #cf711f;
 }
 
 .main-nav-link.nav-cta:link,
@@ -48,7 +48,7 @@
 
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
-  background-color: #b8651b;
+  background-color: #cf711f;
 }
 /************************/
 /*HERO SECTION*/
@@ -106,7 +106,7 @@
   font-weight: 700;
 }
 .delivered-text span {
-  color: #b8651b;
+  color: #cf711f;
 }
 
 /************************/
@@ -158,7 +158,7 @@
 .step-img-box::before,
 .step-img-box::after {
   content: "";
-
+  display: block;
   border-radius: 50%;
   position: absolute;
 }
@@ -186,4 +186,103 @@
   font-size: 8.6rem;
   color: #ddd;
   font-weight: 600;
+}
+
+/************************/
+/*MEALS SECTION*/
+/************************/
+
+.section-meals {
+  padding: 9.6rem 0;
+}
+
+.meal {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  overflow: hidden;
+  border-radius: 15px;
+  transition: all 0.4s;
+}
+
+.meal:hover {
+  translate: 0 -2rem;
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+}
+
+.meal-img {
+  width: 100%;
+  /* margin-bottom: 1.2rem; */
+  /* border-radius: 15px 15px 0 0; */
+}
+.meal-tags {
+  margin-bottom: 1.2rem;
+  display: flex;
+  gap: 0.8rem;
+}
+.tag {
+  display: inline-block;
+  font-size: 1.2rem;
+  color: #333;
+  padding: 0.4rem 0.8rem;
+  border-radius: 100px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.tag--vegeterian {
+  background-color: #51cf66;
+}
+.tag--vegan {
+  background-color: #82c91e;
+}
+
+.tag--paloe {
+  background-color: #fcc419;
+}
+
+.meal-description {
+  /* padding: 2.4rem 2.4rem 3.2rem 2.4rem; */
+  /* padding-bottom: 4.6rem; */
+  padding: 4.8rem;
+  padding-top: 3.2rem;
+}
+.meal-name {
+  font-size: 2.4rem;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 3.2rem;
+}
+.meal-attributes {
+  list-style: none;
+  gap: 2rem;
+  font-size: 1.8rem;
+}
+
+.meal-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+.meal-attribute {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.list {
+  list-style: none;
+  font-size: 1.8rem;
+  color: #555;
+
+  gap: 1.6rem;
+}
+
+.list-icon {
+  width: 3rem;
+  height: 3rem;
+  color: #e67e22;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
 }

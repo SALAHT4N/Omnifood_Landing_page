@@ -66,3 +66,15 @@ ___________
   a flex item.
 
 * filter property has a lot of functionalities.
+* overflow property, basically defines what will happen when overflow occures.
+
+* make sure in cards for the images to have the same aspect ratio.
+
+* it isn't a good practice if we added more styles to our reusable classes.
+* adding a border to anchor instead of the text decoration looks better.
+
+* currentColor keyword is a variable that has the value of the current test color.
+  if the text color changes, so will the currentColor.
+
+* when we want to remove a border, if we set it to null, the layout may change a little,
+  we use the transparent color keyword to basically set it as display none.
