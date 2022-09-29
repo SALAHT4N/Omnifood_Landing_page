@@ -58,3 +58,6 @@ ___________
 * a reusable rule: the idea is to extract a duplicated styles from different 
   rules into a single rule that can be applied to an element if the specific 
   styles are wanted on that element.
+
+* height of a before or after element using percentages doesn't work, we use 
+  a trick of padding-bottom as the height property.

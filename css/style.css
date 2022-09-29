@@ -125,6 +125,30 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
+  position: relative;
+}
+.step-img-box::before,
+.step-img-box::after {
+  content: "";
+
+  border-radius: 50%;
+  position: absolute;
+}
+
+.step-img-box::before {
+  background-color: #fdf2e9;
+  width: 60%;
+  /* height: 60%; */
+  padding-bottom: 60%;
+  z-index: -2;
+}
+
+.step-img-box::after {
+  background-color: #fae5d3;
+  z-index: -1;
+  width: 45%;
+  padding-bottom: 45%;
 }
 .step-description {
   font-size: 1.8rem;
