@@ -61,3 +61,8 @@ ___________
 
 * height of a before or after element using percentages doesn't work, we use 
   a trick of padding-bottom as the height property.
+
+* justify-content : space-around; also adds space to the start and end of 
+  a flex item.
+
+* filter property has a lot of functionalities.
