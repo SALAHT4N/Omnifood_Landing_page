@@ -78,3 +78,25 @@ ___________
 
 * when we want to remove a border, if we set it to null, the layout may change a little,
   we use the transparent color keyword to basically set it as display none.
+
+* we don't want to make the customer photos relative so they wouldn't get too big and worse quality.
+* figcaption is only allowed in figures, figures are the best 
+
+* there is white spaces around images because they are inline elements.
+* similar elements, it is better for the number of lines to be somewhat the same.
+
+* fr idea, we could think of them as percentages, to allow for more precise sizing for columns.
+* big text usually aren't too bold.
+
+* the cards in the pricing sections are block level elements, therefore they occupy the entire
+  avalible width.
+
+* the :not pseudo class can take other pseudo classes as argument to reverse the logic.
+* .grid:last-child, is applied to any element with the class grid, who happens to be the last child.
+
+* the ionicons use the default box model.
+
+* font-size: 1.8rem for main text.
+
+* we added the grid class to the pricing-info to give it the same margin as the frid.
+* we appened the margin-bottom-md class to the pricing-plans to override the already defined margin bottom.
