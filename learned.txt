@@ -141,3 +141,19 @@ ___________
 
   focus pseudo class.
 * we can select every element in decendent like .cta *:focus.
+
+* the items inside the main are usually the ones that aren't repeated.
+  but headers and footers are repeatable so they are outside the main tag.
+
+* footers are filled with links, even the logos and icons.
+
+* links in navs are better put in an unordered list.
+
+* in the anchor, we can use some protocols? like mailto: or tel:,
+  and when they are clicked, a special behaviour happens.
+* address tag is a semantic div for addresses like nav.
+
+* flexbox trick, to push an element to the extreme, we put the elements in a flexbox,
+  then use margin: auto, to get all the available space.
+
+* we used visual hierarchy using font colors in the footer.
