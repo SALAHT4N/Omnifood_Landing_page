@@ -100,3 +100,44 @@ ___________
 
 * we added the grid class to the pricing-info to give it the same margin as the frid.
 * we appened the margin-bottom-md class to the pricing-plans to override the already defined margin bottom.
+
+* linear-gradient(x deg, color1, color2), we can use degrees for direction or "to right" 
+  "to right bottom" ...etc keywords.
+
+* background size set to cover to make the image fit the container.
+* background position can be helpful.
+
+* when we set background image, there is no alt text, but we should add it to the div by
+  setting the role to image, and aria-label to the alt text.
+
+* to align the cta section with the rest, we removed the background color from the container div
+  to another div inside it so that the color doesn't take the available padding.
+
+* you can only send and recieve data in html, using the action attribute on the form tag.
+* by default, labels, inputs are all inline elements.
+* we should use the label for the info about the text field, while the placeholder for the required format.
+* the action attribute is used to define where the data is heading when we send it.
+
+* the select element along with option is basically a combo box.
+* in every form there should be a button to send the data.
+
+* in option, a value attribute specifies the value that will be sent when we submit.
+* jonas likes to use a regular button instead of input of type submit.
+
+* the first option usually is value is empty, so the form can't be sent unless we select
+  a different option.
+
+* select is in the same level as the input.
+* required makes the input required to be filled before submission.
+
+* we can force an attribute to be inherited using the inherit keyword.
+
+* there is a placeholder pseudo element.
+* outline is styled just as border, it is necessary for accecibility.
+* outline is not a part of the box model.
+
+* to style the outer border that is visible when we press tab, we can use an outline
+  or a box-shadow.
+
+  focus pseudo class.
+* we can select every element in decendent like .cta *:focus.
