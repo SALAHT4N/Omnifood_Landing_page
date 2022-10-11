@@ -157,3 +157,31 @@ ___________
   then use margin: auto, to get all the available space.
 
 * we used visual hierarchy using font colors in the footer.
+
+SECTION 8
+_____________
+
+* If we reversed designed the project, if we started on mobile, then to make it responsive
+  we need to use the min-width property.
+
+  but because we built it on the desktop, then we should use max-width.
+
+* media quries basically are code to overwrite certain styles at certain viewwport.
+* if there is conflicting styles in media queries, the last rules in the css file
+  will apply.
+* the meta tag with the name viewport, is crucial to respinsive design.
+  
+  because this gets rid out of the way websites are on mobile, they don't get 
+  zoomed out to fit the page, instead the width of the website is the same as the device
+  width.
+
+* We should use media queries in terms of rem and em, and not fixed pixels, 
+  to make it adapt to the font size the user chooses.
+
+  * media doesn't work with rem properly so we use em.
+  * rem and em doesn't depend on the font-size that we overwritten in the html style.
+    so they are 16px.
+  * em is the current element font-size, while rem is the root font-size.
+
+* media queries can work because of the 3 responsive ingredients, fluid grids,
+  responsive images, and responsive units.
