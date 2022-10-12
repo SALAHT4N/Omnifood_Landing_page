@@ -185,3 +185,9 @@ _____________
 
 * media queries can work because of the 3 responsive ingredients, fluid grids,
   responsive images, and responsive units.
+
+* text-align works on inline non-text elements.
+* usually every query works for 200px - 300px, so we should account for some size
+  smaller than the breakpoint.
+
+/*Tablets 13:01*/

@@ -247,7 +247,7 @@
   padding-top: 3.2rem;
 }
 .meal-name {
-  font-size: 2.4rem;
+  font-size: 2rem;
   color: #333;
   font-weight: 600;
   margin-bottom: 3.2rem;
@@ -294,6 +294,7 @@
 
 .section-testimonials {
   /* padding: 9.6rem 0; */
+  /* max-width: 120rem; */
   display: grid;
   grid-template-columns: 55fr 45fr;
   background-color: #fdf2e9;
@@ -349,7 +350,7 @@
 /************************/
 
 .section-pricing {
-  padding: 9.6rem;
+  padding: 9.6rem 0;
 }
 
 .pricing-plan {
@@ -422,6 +423,7 @@
 
 .plan-text {
   font-size: 1.6rem;
+  line-height: 1.2;
   color: #777;
 }
 .plan-sign-up {
@@ -479,6 +481,7 @@
     ),
     url("../img/eating.jpg");
   background-size: cover;
+  background-position: center;
   /* z-index: -2; */
 }
 
@@ -545,7 +548,7 @@
 /************************/
 
 .footer {
-  padding: 12.8rem;
+  padding: 12.8rem 0;
   border-top: 1px solid #eee;
   background-color: rgb(250, 250, 250);
 }
