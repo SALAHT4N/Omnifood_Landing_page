@@ -55,6 +55,7 @@
 .btn-mobile-nav {
   background: none;
   border: none;
+  z-index: 9999;
   display: none;
 }
 .icon-mobile-nav {
