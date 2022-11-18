@@ -191,3 +191,30 @@ _____________
   smaller than the breakpoint.
 
 /*Tablets 13:01*/
+
+* when making a drop down menu, we need javascript to execute the desired behaviour.
+  if the information in that drop down is dynamically generated, we should do that 
+  in javascript code.
+
+  but if the info is static, then the info should be statically typed in HTML, and use 
+  javascript to simply set the display to block.
+
+* a trick to center one item, is to make its container a flexbox, and setting the centering
+  styles to center the only flex element it contains.
+
+* display: none; allows no transitions at ALL, we can use opacity: 0; instead.
+
+* in CSS, we can select elements based on attributes assigned to them.
+
+* to properly hide an element we should do the following 3 steps:
+  1) hide the element visually using opacity: 0;
+  2) delete events pointer-events: none;
+  3) remove it from screen readers by visibility: hidden;
+
+  when we want to show the element, we should reverse all those attributes.
+
+* to make a slide animation, we use translate property, but alone makes it so that 
+  we can scroll to the nav bar even though its opacity is set to 0;
+
+  to fix that we need overflowX set to hidden;
+* transform: translate has better performence than using left or right.
