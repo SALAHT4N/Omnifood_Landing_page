@@ -218,3 +218,8 @@ _____________
 
   to fix that we need overflowX set to hidden;
 * transform: translate has better performence than using left or right.
+
+* if we have 3 columns and we want 2 elements to span across them, we can multiply 
+  the column numbers to a number divisble by 2.
+
+* to re-order grid items, we use the grid-row and grid-column styles, in flexbox we use "order".
