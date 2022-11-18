@@ -223,3 +223,8 @@ _____________
   the column numbers to a number divisble by 2.
 
 * to re-order grid items, we use the grid-row and grid-column styles, in flexbox we use "order".
+
+* to select specific children in css without assigning new classes, use nth-child.
+* we can use translate to look like a margin in a grid.
+
+* becuase the form image div doesn't have content, so it disappeared.
