@@ -228,3 +228,37 @@ _____________
 * we can use translate to look like a margin in a grid.
 
 * becuase the form image div doesn't have content, so it disappeared.
+* scroll-behaviour: smooth; to make auto scrolling smooth. this is set on the html element.
+
+* to scroll to the top of the page, use the window.scrollTo()
+* to scroll to a specific element, we select it and call the scrollIntoView() method.
+
+
+__________________________Sticky NAVBAR_____________________________
+
+* position: fixed takes the element out of the flow, just like the absolute position
+  we have to specify the top, bottom, ...etc styles.
+* use IntersectionObserver to make a sticky nav bar.
+
+_______________________________
+* backdrop-filter: is a modern css to make filters like blur on objects behind.
+* meta tags are visible in google results.
+* fav icon is the icon that is set in the tab that opens the website.
+  it is set by the link tag and with rel="icon"
+* there is also tags that should be provided for android and iPhones.
+* for android we need a manifest.webmanifest file.
+
+* each image size should be double of that displayed on the website.
+  to do that, first we need to get the max size for the image, then shrink the actual image 
+  size to be double of what is displayed.
+* webp is a better compressed image type. it is not supported in all browsers, so we have to 
+  use picture tag in html, inside we add sourse tags containing srcset attribute.
+  
+  the browser renders the first one that is compatible with it.
+  compress images using squoosh.com
+
+* to buy domains: godaddy, hover
+  to upload for free: netlify
+
+* to use netlify forms, only add "netlify" keyword in the form to be substitued by method="post"
+  attribute.
